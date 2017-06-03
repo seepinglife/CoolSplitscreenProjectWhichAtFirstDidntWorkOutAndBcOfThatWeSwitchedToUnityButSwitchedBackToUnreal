@@ -1,0 +1,1008 @@
+﻿Log file open, 06/03/17 14:50:21
+LogInit:Display: Running engine for game: MAIN
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(635664393) SRandInit(635664393).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077193
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/unreallengine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.03-04.50.22:271][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.03-04.50.22:271][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.03-04.50.22:281][  0]LogInit: Computer: DESKTOP-Q1BP53L
+[2017.06.03-04.50.22:281][  0]LogInit: User: Sussane
+[2017.06.03-04.50.22:281][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.03-04.50.22:281][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2017.06.03-04.50.22:281][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.03-04.50.22:281][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.03-04.50.22:281][  0]LogMemory: Process Physical Memory: 272.96 MB used, 272.96 MB peak
+[2017.06.03-04.50.22:281][  0]LogMemory: Process Virtual Memory: 261.06 MB used, 261.06 MB peak
+[2017.06.03-04.50.22:281][  0]LogMemory: Physical Memory: 5828.71 MB used,  10402.96 MB free, 16231.68 MB total
+[2017.06.03-04.50.22:281][  0]LogMemory: Virtual Memory: 638.31 MB used,  10402.96 MB free, 134217728.00 MB total
+[2017.06.03-04.50.22:322][  0]LogInit: Using OS detected language (en-GB).
+[2017.06.03-04.50.22:322][  0]LogInit: Using OS detected locale (en-AU).
+[2017.06.03-04.50.22:324][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.06.03-04.50.23:130][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.03-04.50.23:143][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.06.03-04.50.23:143][  0]LogD3D11RHI:       3052/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.06.03-04.50.23:144][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.03-04.50.23:144][  0]LogD3D11RHI:       0/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.03-04.50.23:144][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.03-04.50.23:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.03-04.50.23:147][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.03-04.50.23:147][  0]LogWindows: EnumDisplayDevices:
+[2017.06.03-04.50.23:147][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.06.03-04.50.23:148][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.06.03-04.50.23:148][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.06.03-04.50.23:148][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.03-04.50.23:148][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.03-04.50.23:148][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.03-04.50.23:148][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.03-04.50.23:148][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.06.03-04.50.23:148][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.2 (internal:22.19.165.512, unified:22.19.165.512)
+[2017.06.03-04.50.23:148][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.03-04.50.23:148][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.03-04.50.23:214][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.03-04.50.23:224][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.03-04.50.23:225][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/Sussane/Documents/Unreal Projects/MAIN/Intermediate/Shaders/WorkingDirectory/9588/).
+[2017.06.03-04.50.23:225][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sussane/AppData/Local/Temp/UnrealShaderWorkingDir/B12680B34664CE6F99A204A62D0FF750/'.
+[2017.06.03-04.50.23:225][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.03-04.50.24:062][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.03-04.50.24:092][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.03-04.50.24:125][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.03-04.50.24:156][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.03-04.50.24:187][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.03-04.50.24:218][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.03-04.50.24:249][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.03-04.50.24:279][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.03-04.50.24:306][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.03-04.50.24:336][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.03-04.50.24:365][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.03-04.50.24:396][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.03-04.50.24:426][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.03-04.50.24:456][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.03-04.50.24:486][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.03-04.50.24:546][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.03-04.50.24:546][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.03-04.50.24:568][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.03-04.50.24:631][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.03-04.50.24:650][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.03-04.50.24:680][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.03-04.50.24:710][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.03-04.50.24:739][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.03-04.50.24:770][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.03-04.50.24:770][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.03-04.50.25:051][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.03-04.50.25:132][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.03-04.50.25:133][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.03-04.50.25:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sussane/Documents/Unreal Projects/MAIN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.03-04.50.25:133][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.03-04.50.25:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sussane/Documents/Unreal Projects/MAIN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.03-04.50.25:133][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.03-04.50.25:150][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.03-04.50.25:161][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sussane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.03-04.50.25:171][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.03-04.50.25:171][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.03-04.50.25:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.03-04.50.25:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.03-04.50.25:444][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.03-04.50.25:527][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.03-04.50.25:642][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.03-04.50.25:669][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.03-04.50.25:698][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.03-04.50.25:698][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.03-04.50.25:698][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.03-04.50.26:144][  0]LogNetVersion: MAIN , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1844700196)
+[2017.06.03-04.50.26:194][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2017.06.03-04.50.26:242][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.032968 seconds
+[2017.06.03-04.50.26:248][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.03-04.50.26:248][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.03-04.50.26:248][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.03-04.50.26:284][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.03-04.50.27:853][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.03-04.50.27:880][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.03-04.50.28:236][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.03-04.50.28:499][  0]SourceControl: Info Source control is disabled
+[2017.06.03-04.50.28:500][  0]SourceControl: Info Source control is disabled
+[2017.06.03-04.50.28:527][  0]SourceControl: Info Source control is disabled
+[2017.06.03-04.50.28:559][  0]SourceControl: Info Source control is disabled
+[2017.06.03-04.50.28:977][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.03-04.50.29:356][  0]LogEngine: Initializing Engine...
+[2017.06.03-04.50.29:356][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.03-04.50.29:519][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.03-04.50.29:519][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.03-04.50.29:596][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.03-04.50.29:613][  0]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-04.50.29:620][  0]LogInit: FAudioDevice initialized.
+[2017.06.03-04.50.29:658][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.03-04.50.29:670][  0]LogInit: Texture streaming: Enabled
+[2017.06.03-04.50.29:724][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.03-04.50.29:724][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={91F31278-401D-A5CE-E2EE-A58F9CD0FD25}
+[2017.06.03-04.50.29:847][  0]LogInit: Transaction tracking system initialized
+[2017.06.03-04.50.30:024][  0]BlueprintLog: New page: Editor Load
+[2017.06.03-04.50.30:545][  0]LocalizationService: Info Localization service is disabled
+[2017.06.03-04.50.30:924][  0]LogConsoleResponse:Display: 
+[2017.06.03-04.50.31:031][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.03-04.50.31:031][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.03-04.50.31:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/' took 0.01s
+[2017.06.03-04.50.31:661][  0]SourceControl: Info Source control is disabled
+[2017.06.03-04.50.31:661][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.03-04.50.31:662][  0]LightingResults: New page: Lighting Build
+[2017.06.03-04.50.31:687][  0]MapCheck: New page: Map Check
+[2017.06.03-04.50.31:687][  0]LightingResults: New page: Lighting Build
+[2017.06.03-04.50.31:859][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.03-04.50.31:860][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.03-04.50.31:864][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.03-04.50.31:877][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.03-04.50.31:914][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.57ms to complete.
+[2017.06.03-04.50.31:914][  0]LogFileHelpers: Loading map 'Template_Default' took 0.252
+[2017.06.03-04.50.32:091][  0]LogCollectionManager: Loaded 0 collections in 0.000632 seconds
+[2017.06.03-04.50.32:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Collections/' took 0.01s
+[2017.06.03-04.50.32:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Developers/Sussane/Collections/' took 0.01s
+[2017.06.03-04.50.32:169][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Collections/' took 0.01s
+[2017.06.03-04.50.32:169][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.03-04.50.32:178][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.06.03-04.50.32:215][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.03-04.50.32:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.03-04.50.32:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.03-04.50.32:292][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.03-04.50.32:296][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.03-04.50.32:297][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.03-04.50.32:300][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.03-04.50.32:372][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.03-04.50.32:497][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.03-04.50.32:542][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.03-04.50.32:543][  0]LogLoad: (Engine Initialization) Total time: 11.34 seconds
+[2017.06.03-04.50.32:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.06.03-04.50.32:543][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.03-04.50.32:882][  0]LogOcInput: OculusInput pre-init called
+[2017.06.03-04.50.32:882][  0]LogHMD: Starting GearVRController plugin
+[2017.06.03-04.50.32:893][  0]LogAssetRegistry: Asset discovery search completed in 6.7206 seconds
+[2017.06.03-04.50.32:894][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.03-04.50.32:894][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.06.03-04.50.32:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.03-04.50.32:929][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.03-04.50.33:883][  3]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.03-04.52.11:893][396]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.03-04.52.11:917][396]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-04.52.11:929][396]Cmd: MAP LOAD FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.03-04.52.11:929][396]LightingResults: New page: Lighting Build
+[2017.06.03-04.52.11:930][396]LoadErrors: New page: Loading map: MAIN.umap
+[2017.06.03-04.52.11:930][396]MapCheck: New page: Map Check
+[2017.06.03-04.52.11:930][396]LightingResults: New page: Lighting Build
+[2017.06.03-04.52.11:941][396]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.03-04.52.11:962][396]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.03-04.52.11:991][396]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.846ms to complete.
+[2017.06.03-04.52.11:991][396]LogFileHelpers: Loading map 'MAIN' took 0.063
+[2017.06.03-04.52.20:520][311]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.06.03-04.52.20:994][311]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.03-04.52.21:037][311]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.03-04.52.23:878][643]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.06.03-04.52.26:956][922]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.03-04.52.59:185][560]BlueprintLog: New page: Compile Player2
+[2017.06.03-04.52.59:660][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-04.52.59:686][595]LogSavePackage: Save=18.09ms
+[2017.06.03-04.52.59:686][595]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2974D943A48AA745A0642E7BBD59A527E.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-04.52.59:688][595]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-04.53.01:137][747]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-04.53.01:165][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-04.53.01:165][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-04.53.01:165][747]PIE: New page: PIE session: MAIN (4 Jun 2017 12:53:01 am)
+[2017.06.03-04.53.01:165][747]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-04.53.01:171][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005659s)
+[2017.06.03-04.53.01:171][747]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-04.53.01:171][747]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2017.06.03-04.53.01:172][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006647s)
+[2017.06.03-04.53.01:201][747]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-04.53.01:206][747]LogInit: FAudioDevice initialized.
+[2017.06.03-04.53.01:284][747]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-04.53.01:286][747]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-14.53.01
+[2017.06.03-04.53.01:287][747]LogWorld: Bringing up level for play took: 0.000920
+[2017.06.03-04.53.01:313][747]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.03-04.53.01:314][747]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 1.112
+[2017.06.03-04.53.01:315][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-04.53.09:824][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-04.53.09:852][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-04.55.01:740][747]LogBlueprint:Warning: Timeline Runspeed Track Runspeed in /Engine/Transient.REINST_PlayerORIGINAL_C_56 has an invalid curve.  Please fix!
+[2017.06.03-04.55.01:745][747]LogBlueprint:Warning: Timeline Runspeed Track Runspeed in /Engine/Transient.REINST_PlayerORIGINAL_C_58 has an invalid curve.  Please fix!
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0481
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:04C7
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:03D6
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:041C
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:032B
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0371
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0294
+[2017.06.03-04.55.19:060][580]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:02DA
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0481
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:04C7
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:03D6
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:041C
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:032B
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0371
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0294
+[2017.06.03-04.55.19:143][581]LogScript:Warning: Accessed None trying to read property player2
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:02DA
+[2017.06.03-04.55.19:177][582]LogScript:Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	MyPlayerController_C /Engine/Transient.World_7:PersistentLevel.MyPlayerController_C_0
+	Function /Game/Blueprints/MyPlayerController.MyPlayerController_C:ExecuteUbergraph_MyPlayerController:0481
+[2017.06.03-04.55.26:282][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.03-04.57.25:480][390]LogEditorTransaction: Undo Move Node
+[2017.06.03-04.57.26:347][482]LogEditorTransaction: Undo Rename Node
+[2017.06.03-04.57.26:837][533]LogEditorTransaction: Undo Add Node
+[2017.06.03-04.59.21:653][188]LogEditorTransaction: Undo Rename Node
+[2017.06.03-04.59.22:297][253]LogEditorTransaction: Undo Add Node
+[2017.06.03-05.01.56:618][680]BlueprintLog: New page: Compile MyPlayerController
+[2017.06.03-05.01.57:609][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerController" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.06.03-05.01.57:662][782]LogSavePackage: Save=42.94ms
+[2017.06.03-05.01.57:662][782]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MyPlayerController01E202AF4E92024FDFF1E6AD170EF8E2.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset'
+[2017.06.03-05.01.57:664][782]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset
+[2017.06.03-05.01.59:256][939]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.01.59:275][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.01.59:275][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.01.59:275][939]PIE: New page: PIE session: MAIN (4 Jun 2017 1:01:59 am)
+[2017.06.03-05.01.59:275][939]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.01.59:281][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006014s)
+[2017.06.03-05.01.59:282][939]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.01.59:282][939]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.06.03-05.01.59:282][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006929s)
+[2017.06.03-05.01.59:319][939]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.01.59:326][939]LogInit: FAudioDevice initialized.
+[2017.06.03-05.01.59:369][939]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.01.59:371][939]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.01.59
+[2017.06.03-05.01.59:371][939]LogWorld: Bringing up level for play took: 0.001029
+[2017.06.03-05.01.59:373][939]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN -0.829
+[2017.06.03-05.01.59:373][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.02.16:768][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.02.16:802][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.05.36:350][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerController" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.06.03-05.05.36:394][510]LogSavePackage: Save=38.30ms
+[2017.06.03-05.05.36:394][510]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MyPlayerController50FBDF5D4506A51466B7B78EFC2AE370.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset'
+[2017.06.03-05.05.36:396][510]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset
+[2017.06.03-05.09.06:562][425]BlueprintLog: New page: Compile MyPlayerController
+[2017.06.03-05.09.07:271][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerController" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.06.03-05.09.07:328][486]LogSavePackage: Save=45.39ms
+[2017.06.03-05.09.07:328][486]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MyPlayerController501667F64F2EBC7869CCA88EE1C47941.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset'
+[2017.06.03-05.09.07:330][486]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset
+[2017.06.03-05.10.24:684][369]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.03-05.12.30:483][717]LogBlueprint:Warning: [MyPlayerController] 'CharacterMovement' variable not found. Base class was probably changed.
+[2017.06.03-05.13.02:819][575]BlueprintLog: New page: Compile MyPlayerController
+[2017.06.03-05.13.02:830][575]LogBlueprint:Warning: [Compiler MyPlayerController] Warning Could not find a variable named "CharacterMovement" in 'MyPlayerController_C'.
+Make sure 'MyPlayerController_C' has been compiled for  Get CharacterMovement
+[2017.06.03-05.13.02:832][575]LogBlueprint:Error: [Compiler MyPlayerController] Error The property associated with  Character Movement  could not be found
+[2017.06.03-05.13.03:049][575]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CharacterMovement" in 'MyPlayerController_C'.
+Make sure 'MyPlayerController_C' has been compiled for  Get CharacterMovement
+[2017.06.03-05.13.03:049][575]BlueprintEditorCompileResults:Error: Error The property associated with  Character Movement  could not be found
+[2017.06.03-05.13.03:049][575]LogBlueprint:Warning: [Compiler MyPlayerController] Warning [1361.85] Compile of MyPlayerController failed. 1 Fatal Issue(s) 1 Warning(s) [in 229 ms] (/Game/Blueprints/MyPlayerController.MyPlayerController)
+[2017.06.03-05.13.25:940][315]BlueprintLog: New page: Compile MyPlayerController
+[2017.06.03-05.13.25:953][315]LogBlueprint:Error: [Compiler MyPlayerController] Error This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.06.03-05.13.25:953][315]LogBlueprint:Error: [Compiler MyPlayerController] Error Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.03-05.13.26:115][315]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CharacterMovementComponent, therefore ' Target ' must have a connection.
+[2017.06.03-05.13.26:115][315]BlueprintEditorCompileResults:Error: Error Variable node  Set MaxWalkSpeed  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.03-05.13.26:115][315]LogBlueprint:Warning: [Compiler MyPlayerController] Warning [1384.92] Compile of MyPlayerController failed. 2 Fatal Issue(s) 0 Warning(s) [in 175 ms] (/Game/Blueprints/MyPlayerController.MyPlayerController)
+[2017.06.03-05.18.18:340][729]LogClass:Warning: Type mismatch in Player1Movement of SKEL_PlayerORIGINAL_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.06.03-05.18.55:415][153]BlueprintLog: New page: Compile MyPlayerController
+[2017.06.03-05.18.55:993][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerController" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset" SILENT=true
+[2017.06.03-05.18.56:043][197]LogSavePackage: Save=37.56ms
+[2017.06.03-05.18.56:043][197]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MyPlayerController99A59DA14B89A1B8D3CA25B818EBCDA8.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset'
+[2017.06.03-05.18.56:045][197]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/MyPlayerController.uasset
+[2017.06.03-05.18.57:883][398]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.18.57:899][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.18.57:899][398]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.03-05.18.57:899][398]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.06.03-05.18.58:099][398]LogPlayLevel: [PlayLevel] Compiling PlayerORIGINAL before play...
+[2017.06.03-05.18.58:104][398]LogBlueprint:Warning: Timeline Runspeed Track Runspeed in /Engine/Transient.REINST_PlayerORIGINAL_C_138 has an invalid curve.  Please fix!
+[2017.06.03-05.18.58:325][398]LogPlayLevel: PlayLevel: Blueprint regeneration took 425 ms (2 blueprints)
+[2017.06.03-05.18.58:325][398]PIE: New page: PIE session: MAIN (4 Jun 2017 1:18:58 am)
+[2017.06.03-05.18.58:325][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.18.58:330][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005305s)
+[2017.06.03-05.18.58:331][398]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.18.58:331][398]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.06.03-05.18.58:331][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006181s)
+[2017.06.03-05.18.58:354][398]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.18.58:358][398]LogInit: FAudioDevice initialized.
+[2017.06.03-05.18.58:391][398]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.18.58:393][398]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.18.58
+[2017.06.03-05.18.58:393][398]LogWorld: Bringing up level for play took: 0.000834
+[2017.06.03-05.18.58:395][398]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.193
+[2017.06.03-05.18.58:395][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.19.09:339][702]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.19.09:367][702]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.21.17:218][997]BlueprintLog: New page: Compile Player
+[2017.06.03-05.21.18:008][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.03-05.21.18:047][ 46]LogSavePackage: Save=28.99ms
+[2017.06.03-05.21.18:047][ 46]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player975CA2EB411BD6939694AB8CE507A8A1.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.03-05.21.18:049][ 46]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.03-05.21.40:108][613]BlueprintLog: New page: Compile PlayerORIGINAL
+[2017.06.03-05.21.40:114][613]LogBlueprint:Warning: Timeline Runspeed Track Runspeed in /Engine/Transient.REINST_PlayerORIGINAL_C_158 has an invalid curve.  Please fix!
+[2017.06.03-05.21.41:088][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerORIGINAL" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/PlayerORIGINAL.uasset" SILENT=true
+[2017.06.03-05.21.41:138][706]LogSavePackage: Save=40.90ms
+[2017.06.03-05.21.41:138][706]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerORIGINALC5DE55B64D9DA1323F589BA9391229D7.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/PlayerORIGINAL.uasset'
+[2017.06.03-05.21.41:140][706]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/PlayerORIGINAL.uasset
+[2017.06.03-05.21.46:980][404]BlueprintLog: New page: Compile Player
+[2017.06.03-05.21.47:628][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.03-05.21.47:660][459]LogSavePackage: Save=26.83ms
+[2017.06.03-05.21.47:660][459]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player93C301304233A6E4A1BC91BAAC1FE15D.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.03-05.21.47:662][459]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.03-05.21.52:408][939]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.21.52:426][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.21.52:426][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.21.52:426][939]PIE: New page: PIE session: MAIN (4 Jun 2017 1:21:52 am)
+[2017.06.03-05.21.52:426][939]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.21.52:433][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007151s)
+[2017.06.03-05.21.52:434][939]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.21.52:434][939]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.06.03-05.21.52:434][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.008081s)
+[2017.06.03-05.21.52:461][939]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.21.52:465][939]LogInit: FAudioDevice initialized.
+[2017.06.03-05.21.52:498][939]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.21.52:500][939]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.21.52
+[2017.06.03-05.21.52:500][939]LogWorld: Bringing up level for play took: 0.001041
+[2017.06.03-05.21.52:502][939]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.3
+[2017.06.03-05.21.52:502][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.35:059][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.35:098][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.37:352][551]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.22.37:369][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.37:369][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.22.37:369][551]PIE: New page: PIE session: MAIN (4 Jun 2017 1:22:37 am)
+[2017.06.03-05.22.37:369][551]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.22.37:378][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008655s)
+[2017.06.03-05.22.37:379][551]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.22.37:379][551]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2017.06.03-05.22.37:380][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.010052s)
+[2017.06.03-05.22.37:441][551]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.22.37:451][551]LogInit: FAudioDevice initialized.
+[2017.06.03-05.22.37:488][551]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.22.37:490][551]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.22.37
+[2017.06.03-05.22.37:490][551]LogWorld: Bringing up level for play took: 0.000863
+[2017.06.03-05.22.37:492][551]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN -0.711
+[2017.06.03-05.22.37:492][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.51:523][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.22.51:566][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.23.03:035][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.03-05.23.03:226][181]LogSavePackage: Save=163.78ms
+[2017.06.03-05.23.03:226][181]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN7DF52B8049B3A03B7E281BAD3CDC1000.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.03-05.23.03:227][181]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.03-05.23.03:249][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.03-05.23.03:284][181]LogSavePackage: Save=26.75ms
+[2017.06.03-05.23.03:285][181]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData2146AAEF4FDEB1DC85D0DE8D4845932F.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.03-05.23.03:285][181]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.03-05.23.36:068][985]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.23.36:773][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.23.36:818][ 26]LogSavePackage: Save=32.56ms
+[2017.06.03-05.23.36:818][ 26]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player28321375B43B5B83F57B7AFA5E48553AC.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.23.36:820][ 26]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.24.09:659][855]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.24.10:190][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.24.10:227][896]LogSavePackage: Save=30.90ms
+[2017.06.03-05.24.10:227][896]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player24F646590422C8173F08BFD901B62D10E.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.24.10:231][896]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.24.13:096][176]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.24.13:119][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.24.13:119][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.24.13:119][176]PIE: New page: PIE session: MAIN (4 Jun 2017 1:24:13 am)
+[2017.06.03-05.24.13:119][176]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.24.13:127][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007786s)
+[2017.06.03-05.24.13:128][176]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.24.13:128][176]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2017.06.03-05.24.13:128][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.008765s)
+[2017.06.03-05.24.13:156][176]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.24.13:160][176]LogInit: FAudioDevice initialized.
+[2017.06.03-05.24.13:197][176]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.24.13:199][176]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.24.13
+[2017.06.03-05.24.13:199][176]LogWorld: Bringing up level for play took: 0.000885
+[2017.06.03-05.24.13:201][176]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.998
+[2017.06.03-05.24.13:201][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.25.33:634][473]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.25.33:674][473]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.25.58:117][232]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.25.58:726][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.25.58:761][280]LogSavePackage: Save=28.82ms
+[2017.06.03-05.25.58:761][280]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player22C3F67A74A3533F36DF28E8CD39036FF.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.25.58:764][280]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.26.00:715][512]BlueprintLog: New page: Compile Player
+[2017.06.03-05.26.01:465][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.03-05.26.01:499][577]LogSavePackage: Save=28.95ms
+[2017.06.03-05.26.01:499][577]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerE50F2625482394047C7C228058DCAC1D.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.03-05.26.01:500][577]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.03-05.26.22:823][ 48]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.26.23:358][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.26.23:400][ 85]LogSavePackage: Save=32.70ms
+[2017.06.03-05.26.23:400][ 85]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player28792060448E5C87455F0B6B1CAB2D36F.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.26.23:402][ 85]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.26.45:987][733]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.26.46:694][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.26.46:733][769]LogSavePackage: Save=31.88ms
+[2017.06.03-05.26.46:734][769]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2991285184BA9B0A3BA3D48A5BA5F51D2.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.26.46:735][769]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.26.50:593][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.03-05.26.50:794][177]LogSavePackage: Save=175.03ms
+[2017.06.03-05.26.50:795][177]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAINF73492F9459FA4B94B0430A543E32D9A.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.03-05.26.50:797][177]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.03-05.26.50:829][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.03-05.26.50:854][177]LogSavePackage: Save=19.08ms
+[2017.06.03-05.26.50:854][177]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData8F0A34584CCF1864E21E11A69B8B7BD7.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.03-05.26.50:855][177]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.03-05.26.51:570][240]MapCheck: New page: Map Check
+[2017.06.03-05.26.51:614][240]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.03-05.26.51:614][240]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.03-05.26.51:667][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.03-05.26.51:678][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.06.03-05.26.51:686][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.06.03-05.26.52:215][240]TextureStreamingBuild:Display: Compiling optional shaders took 0.555 seconds.
+[2017.06.03-05.26.52:219][240]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
+[2017.06.03-05.26.52:225][240]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2017.06.03-05.26.52:243][240]LightingResults: New page: Lighting Build - 4 Jun 2017 1:26:52 am
+[2017.06.03-05.26.52:272][240]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.03-05.26.52:356][240]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.03-05.26.52:365][240]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.03-05.26.52:879][240]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.03-05.26.52:879][240]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9588
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.03-05.26.55:131][240]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.03-05.26.55:258][240]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.03-05.26.55:258][240]MapCheck: New page: MAIN - 4 Jun 2017 1:26:55 am
+[2017.06.03-05.26.55:302][240]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.133ms to complete.
+[2017.06.03-05.26.55:324][240]LogEditorBuildUtils: Build time 0:03
+[2017.06.03-05.26.56:999][313]Job is a success!
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.06.03-05.26.57:200][314]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X256)
+[2017.06.03-05.26.57:229][314]Lightmass on DESKTOP-Q1BP53L: 1.00 sec total, 113 ms importing, 28 ms setup, 289 ms photons, 515 ms processing, 0 ms extra exporting [56/56 mappings]. Threads: 3.44 sec total, 731 ms processing.
+[2017.06.03-05.26.57:263][314]LogStaticLightingSystem: Illumination: 4.98 sec (46 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2017.06.03-05.26.57:264][314]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.0 MB streaming, 0.5 MB non-streaming), 4 textures
+[2017.06.03-05.26.57:264][314]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2017.06.03-05.26.58:136][314]DumpUnbuiltLightIteractions
+[2017.06.03-05.26.58:136][314]Lights with unbuilt interactions: 0
+[2017.06.03-05.26.58:136][314]
+[2017.06.03-05.26.58:136][314]Primitives with unbuilt interactions: 0
+[2017.06.03-05.26.58:145][315]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.03-05.26.58:145][315]MapCheck: New page: MAIN - 4 Jun 2017 1:26:58 am
+[2017.06.03-05.26.58:195][315]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.015ms to complete.
+[2017.06.03-05.26.59:296][392]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.26.59:318][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.26.59:319][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.26.59:319][392]PIE: New page: PIE session: MAIN (4 Jun 2017 1:26:59 am)
+[2017.06.03-05.26.59:319][392]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.26.59:324][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005748s)
+[2017.06.03-05.26.59:325][392]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.26.59:325][392]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2017.06.03-05.26.59:325][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006667s)
+[2017.06.03-05.26.59:351][392]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.26.59:355][392]LogInit: FAudioDevice initialized.
+[2017.06.03-05.26.59:390][392]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.26.59:392][392]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.26.59
+[2017.06.03-05.26.59:392][392]LogWorld: Bringing up level for play took: 0.000749
+[2017.06.03-05.26.59:395][392]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN -0.807
+[2017.06.03-05.26.59:396][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.27.07:552][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.27.07:590][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.28.13:017][844]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.28.13:745][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.28.13:780][882]LogSavePackage: Save=28.81ms
+[2017.06.03-05.28.13:780][882]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2948B5D0D4AC90EF9DC0661B8ADDB530D.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.28.13:783][882]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.28.43:117][299]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.28.43:147][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.28.43:147][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.28.43:147][299]PIE: New page: PIE session: MAIN (4 Jun 2017 1:28:43 am)
+[2017.06.03-05.28.43:147][299]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.28.43:158][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010478s)
+[2017.06.03-05.28.43:159][299]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.28.43:159][299]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2017.06.03-05.28.43:159][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.011589s)
+[2017.06.03-05.28.43:189][299]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.28.43:194][299]LogInit: FAudioDevice initialized.
+[2017.06.03-05.28.43:226][299]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.28.43:227][299]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.28.43
+[2017.06.03-05.28.43:227][299]LogWorld: Bringing up level for play took: 0.000890
+[2017.06.03-05.28.43:229][299]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 1.027
+[2017.06.03-05.28.43:229][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.29.04:579][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.29.04:618][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.29.12:008][298]LogEditorTransaction: Undo Delete current selection
+[2017.06.03-05.29.35:478][ 29]LogEditorTransaction: Undo Add new track
+[2017.06.03-05.30.05:507][619]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.30.06:581][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.30.06:629][709]LogSavePackage: Save=28.88ms
+[2017.06.03-05.30.06:629][709]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2E5812CFD43A052F01259CCABE831555C.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.30.06:631][709]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.30.27:270][139]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.30.28:032][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.30.28:065][206]LogSavePackage: Save=26.14ms
+[2017.06.03-05.30.28:065][206]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player259F8155C42A18A26D04BB2A63E103735.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.30.28:066][206]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.30.38:237][349]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.30.38:258][349]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.30.38:258][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.30.38:258][349]PIE: New page: PIE session: MAIN (4 Jun 2017 1:30:38 am)
+[2017.06.03-05.30.38:258][349]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.30.38:266][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008342s)
+[2017.06.03-05.30.38:267][349]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.30.38:267][349]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2017.06.03-05.30.38:268][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.009753s)
+[2017.06.03-05.30.38:300][349]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.30.38:306][349]LogInit: FAudioDevice initialized.
+[2017.06.03-05.30.38:341][349]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.30.38:343][349]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.30.38
+[2017.06.03-05.30.38:343][349]LogWorld: Bringing up level for play took: 0.001023
+[2017.06.03-05.30.38:345][349]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.142
+[2017.06.03-05.30.38:345][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.30.47:931][334]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.30.47:968][334]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.31.07:256][342]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.31.07:829][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.31.07:863][373]LogSavePackage: Save=27.56ms
+[2017.06.03-05.31.07:863][373]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2D865348F428B55FCDD74B09985635A65.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.31.07:866][373]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.31.10:438][615]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.31.10:467][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.31.10:467][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.31.10:467][615]PIE: New page: PIE session: MAIN (4 Jun 2017 1:31:10 am)
+[2017.06.03-05.31.10:467][615]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.31.10:476][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008228s)
+[2017.06.03-05.31.10:476][615]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.31.10:476][615]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2017.06.03-05.31.10:477][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.009172s)
+[2017.06.03-05.31.10:519][615]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.31.10:523][615]LogInit: FAudioDevice initialized.
+[2017.06.03-05.31.10:558][615]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.31.10:560][615]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.31.10
+[2017.06.03-05.31.10:560][615]LogWorld: Bringing up level for play took: 0.000786
+[2017.06.03-05.31.10:561][615]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.359
+[2017.06.03-05.31.10:562][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.31.36:038][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.31.36:074][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.32.01:599][990]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.32.02:320][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.32.02:360][ 49]LogSavePackage: Save=32.77ms
+[2017.06.03-05.32.02:360][ 49]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player25D8861374E6AC325429757AFF0EDF3C7.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.32.02:362][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.32.06:227][448]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.32.06:246][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.32.06:246][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.32.06:247][448]PIE: New page: PIE session: MAIN (4 Jun 2017 1:32:06 am)
+[2017.06.03-05.32.06:247][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.32.06:252][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005562s)
+[2017.06.03-05.32.06:253][448]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.32.06:253][448]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.06.03-05.32.06:253][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006366s)
+[2017.06.03-05.32.06:287][448]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.32.06:291][448]LogInit: FAudioDevice initialized.
+[2017.06.03-05.32.06:324][448]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.32.06:326][448]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.32.06
+[2017.06.03-05.32.06:326][448]LogWorld: Bringing up level for play took: 0.001614
+[2017.06.03-05.32.06:328][448]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.126
+[2017.06.03-05.32.06:329][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.32.42:925][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.32.42:967][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.32.45:073][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.03-05.32.45:261][365]LogSavePackage: Save=160.18ms
+[2017.06.03-05.32.45:261][365]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAINADDDA8D4431168C64C64399F54637348.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.03-05.32.45:265][365]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.03-05.32.45:298][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.03-05.32.45:331][365]LogSavePackage: Save=21.71ms
+[2017.06.03-05.32.45:331][365]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltDataE47DB4F34C9FB742D9B34BA1F4E54B87.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.03-05.32.45:333][365]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.03-05.33.48:783][751]BlueprintLog: New page: Compile Player2
+[2017.06.03-05.33.49:666][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player2" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset" SILENT=true
+[2017.06.03-05.33.49:708][810]LogSavePackage: Save=34.67ms
+[2017.06.03-05.33.49:708][810]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player287BFB4A0468E256FBCEFB481B5653D7D.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset'
+[2017.06.03-05.33.49:710][810]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player2.uasset
+[2017.06.03-05.33.52:297][119]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.33.52:325][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.33.52:325][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.33.52:325][119]PIE: New page: PIE session: MAIN (4 Jun 2017 1:33:52 am)
+[2017.06.03-05.33.52:325][119]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.33.52:334][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008287s)
+[2017.06.03-05.33.52:334][119]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.33.52:335][119]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2017.06.03-05.33.52:335][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.010065s)
+[2017.06.03-05.33.52:364][119]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.33.52:369][119]LogInit: FAudioDevice initialized.
+[2017.06.03-05.33.52:469][119]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.33.52:471][119]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.33.52
+[2017.06.03-05.33.52:471][119]LogWorld: Bringing up level for play took: 0.000850
+[2017.06.03-05.33.52:474][119]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.272
+[2017.06.03-05.33.52:474][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.33.52:484][119]LogRenderer: Reallocating scene render targets to support 1292x900 NumSamples 1 (Frame:1).
+[2017.06.03-05.34.15:779][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.15:826][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.22:472][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.03-05.34.22:676][725]LogSavePackage: Save=176.53ms
+[2017.06.03-05.34.22:676][725]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN612F283F4AF6716ED45465B092784BBA.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.03-05.34.22:678][725]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.03-05.34.22:700][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.03-05.34.22:731][725]LogSavePackage: Save=24.56ms
+[2017.06.03-05.34.22:731][725]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData392EAD7E4A1EA85C5296DABB650CE6D9.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.03-05.34.22:732][725]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.03-05.34.23:108][757]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.03-05.34.23:143][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.23:143][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.03-05.34.23:143][757]PIE: New page: PIE session: MAIN (4 Jun 2017 1:34:23 am)
+[2017.06.03-05.34.23:143][757]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.03-05.34.23:163][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020187s)
+[2017.06.03-05.34.23:166][757]LogAIModule: Creating AISystem for world MAIN
+[2017.06.03-05.34.23:166][757]LogPlayLevel: PIE: World Init took: (0.002801s)
+[2017.06.03-05.34.23:166][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.023381s)
+[2017.06.03-05.34.23:220][757]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.03-05.34.23:225][757]LogInit: FAudioDevice initialized.
+[2017.06.03-05.34.23:255][757]LogLoad: Game class is 'MyGame_C'
+[2017.06.03-05.34.23:256][757]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-15.34.23
+[2017.06.03-05.34.23:257][757]LogWorld: Bringing up level for play took: 0.001129
+[2017.06.03-05.34.23:260][757]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 1.058
+[2017.06.03-05.34.23:260][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.28:921][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.28:961][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2017.06.03-05.34.35:080][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.03-05.34.35:149][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.03-05.34.35:238][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.03-05.34.35:540][950]Cmd: QUIT_EDITOR
+[2017.06.03-05.34.35:920][950]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.03-05.34.35:956][950]LogExit: Preparing to exit.
+[2017.06.03-05.34.37:627][950]LogExit: Editor shut down
+[2017.06.03-05.34.37:637][950]LogExit: Transaction tracking system shut down
+[2017.06.03-05.34.39:598][950]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.03-05.34.39:599][950]LogExit: Object subsystem successfully closed.
+[2017.06.03-05.34.39:690][950]LogD3D11RHI: Shutdown
+[2017.06.03-05.34.39:690][950]LogD3D11RHI: CleanupD3DDevice
+[2017.06.03-05.34.39:845][950]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.03-05.34.41:635][950]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.06.03-05.34.41:635][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.06.03-05.34.41:635][950]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.03-05.34.41:635][950]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.03-05.34.41:656][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.03-05.34.41:668][950]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.03-05.34.41:668][950]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.03-05.34.41:668][950]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.03-05.34.41:682][950]LogDirectoryWatcher: A directory notification for 'D:/unreallengine/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.03-05.34.41:691][950]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.03-05.34.41:691][950]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.03-05.34.41:691][950]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.03-05.34.41:691][950]LogDirectoryWatcher: A directory notification for 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Collections/' was aborted.
+[2017.06.03-05.34.41:691][950]LogDirectoryWatcher: A directory notification for 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Developers/Sussane/Collections/' was aborted.
+[2017.06.03-05.34.41:692][950]LogDirectoryWatcher: A directory notification for 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Collections/' was aborted.
+[2017.06.03-05.34.41:692][950]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.03-05.34.41:717][950]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.03-05.34.41:717][950]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.03-05.34.41:767][950]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.03-05.34.41:789][950]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.03-05.34.41:789][950]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.03-05.34.41:836][950]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.03-05.34.41:855][950]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.03-05.34.41:864][950]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.03-05.34.41:864][950]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.03-05.34.41:864][950]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.03-05.34.41:864][950]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.03-05.34.41:864][950]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.03-05.34.41:898][950]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.03-05.34.41:924][950]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.03-05.34.41:978][950]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.03-05.34.42:005][950]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.03-05.34.42:005][950]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.03-05.34.42:005][950]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.03-05.34.42:005][950]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.03-05.34.42:005][950]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.03-05.34.42:796][950]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.03-05.34.42:796][950]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.03-05.34.42:796][950]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.03-05.34.42:796][950]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.03-05.34.42:823][950]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.03-05.34.42:823][950]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.03-05.34.42:843][950]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.03-05.34.42:861][950]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.03-05.34.42:880][950]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.03-05.34.42:898][950]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.03-05.34.42:898][950]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.03-05.34.42:914][950]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.03-05.34.42:925][950]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.03-05.34.42:925][950]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.03-05.34.42:925][950]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.03-05.34.42:942][950]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.03-05.34.42:942][950]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.03-05.34.42:942][950]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.03-05.34.42:942][950]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.03-05.34.42:942][950]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.03-05.34.42:964][950]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.03-05.34.42:990][950]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.03-05.34.43:021][950]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.03-05.34.43:046][950]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.03-05.34.43:088][950]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.03-05.34.43:116][950]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.03-05.34.43:141][950]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.03-05.34.43:168][950]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.03-05.34.43:168][950]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.03-05.34.43:188][950]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.03-05.34.43:205][950]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.03-05.34.43:240][950]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.03-05.34.43:240][950]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.03-05.34.43:240][950]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.03-05.34.43:265][950]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.03-05.34.43:265][950]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.03-05.34.43:265][950]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.03-05.34.43:295][950]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.03-05.34.43:329][950]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.03-05.34.43:352][950]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.03-05.34.43:372][950]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.03-05.34.43:372][950]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.03-05.34.43:372][950]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.03-05.34.43:372][950]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.03-05.34.43:372][950]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.03-05.34.43:416][950]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.03-05.34.43:433][950]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.03-05.34.43:433][950]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.03-05.34.43:448][950]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.03-05.34.43:670][950]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.03-05.34.43:698][950]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.03-05.34.43:698][950]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.03-05.34.43:698][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.03-05.34.43:698][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.03-05.34.43:735][950]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.03-05.34.43:749][950]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.03-05.34.43:749][950]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.03-05.34.43:759][950]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.03-05.34.43:771][950]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.03-05.34.43:778][950]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.03-05.34.43:778][950]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.03-05.34.43:778][950]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.03-05.34.43:778][950]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.03-05.34.43:804][950]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.03-05.34.43:834][950]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.03-05.34.43:842][950]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.03-05.34.43:858][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.03-05.34.43:858][950]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.03-05.34.43:858][950]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.03-05.34.43:858][950]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.03-05.34.43:874][950]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.03-05.34.43:888][950]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.03-05.34.43:932][950]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.03-05.34.43:962][950]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.03-05.34.43:987][950]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.03-05.34.44:001][950]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.03-05.34.44:027][950]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.03-05.34.44:027][950]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.03-05.34.44:027][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.03-05.34.44:027][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.03-05.34.44:030][950]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.03-05.34.44:130][950]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.03-05.34.44:233][950]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.03-05.34.44:242][950]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.03-05.34.44:242][950]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.03-05.34.44:242][950]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.03-05.34.44:250][950]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.03-05.34.44:250][950]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.03-05.34.44:251][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.03-05.34.44:251][950]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.03-05.34.44:270][950]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.03-05.34.44:271][950]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.03-05.34.44:271][950]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.03-05.34.44:271][950]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.03-05.34.44:301][950]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.03-05.34.44:301][950]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.03-05.34.44:310][950]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.03-05.34.44:324][950]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.03-05.34.44:345][950]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.03-05.34.44:346][950]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.03-05.34.44:378][950]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.03-05.34.44:378][950]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.03-05.34.44:403][950]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.03-05.34.44:423][950]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.03-05.34.44:460][950]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.03-05.34.44:483][950]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.03-05.34.44:532][950]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.03-05.34.44:532][950]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.03-05.34.44:532][950]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.03-05.34.44:563][950]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.03-05.34.44:563][950]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.03-05.34.44:565][950]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.03-05.34.44:731][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.03-05.34.44:731][950]LogDirectoryWatcher: A directory notification for 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/' was aborted.
+[2017.06.03-05.34.44:731][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.03-05.34.44:731][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.03-05.34.44:748][950]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.03-05.34.44:751][950]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.03-05.34.44:751][950]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.03-05.34.44:751][950]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.03-05.34.44:751][950]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.03-05.34.44:774][950]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.03-05.34.44:802][950]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.03-05.34.44:802][950]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.03-05.34.44:817][950]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.03-05.34.44:839][950]LogDerivedDataCache: Shutdown
+[2017.06.03-05.34.44:839][950]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.03-05.34.44:839][950]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.03-05.34.44:869][950]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.03-05.34.44:882][950]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.03-05.34.44:903][950]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.03-05.34.44:903][950]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.03-05.34.44:922][950]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.03-05.34.44:923][950]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.03-05.34.44:948][950]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.03-05.34.44:948][950]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.03-05.34.44:978][950]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.03-05.34.44:978][950]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.03-05.34.44:978][950]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.03-05.34.44:978][950]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.03-05.34.45:016][950]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.03-05.34.45:044][950]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.03-05.34.45:044][950]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.06.03-05.34.45:065][950]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B278D47E4-495A-66D3-C8F7-B9A6021AD955%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=609c44264407114ab804d7951423a669%7Ccb90d58a68944c9f99f651913ddbbb05%7Cc15752dd-606f-4127-ab67-5858b074a6ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.03-05.34.45:065][950]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B278D47E4-495A-66D3-C8F7-B9A6021AD955%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=609c44264407114ab804d7951423a669%7Ccb90d58a68944c9f99f651913ddbbb05%7Cc15752dd-606f-4127-ab67-5858b074a6ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.03-05.34.45:078][950]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.03-05.34.45:103][950]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.03-05.34.45:129][950]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.03-05.34.45:139][950]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.03-05.34.45:139][950]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.03-05.34.45:151][950]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.03-05.34.45:151][950]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.03-05.34.45:151][950]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.03-05.34.45:151][950]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.03-05.34.45:184][950]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.03-05.34.45:214][950]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.03-05.34.45:214][950]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.03-05.34.45:225][950]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.03-05.34.45:228][950]LogExit: Exiting.
+[2017.06.03-05.34.45:247][950]Log file closed, 06/03/17 15:34:45

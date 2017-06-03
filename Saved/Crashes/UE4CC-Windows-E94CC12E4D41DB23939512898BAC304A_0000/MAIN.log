@@ -1,0 +1,844 @@
+﻿Log file open, 06/03/17 08:22:15
+LogInit:Display: Running engine for game: MAIN
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1646845146) SRandInit(-1646845146).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083120
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/unreallengine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.02-22.22.16:031][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.02-22.22.16:031][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.02-22.22.16:042][  0]LogInit: Computer: DESKTOP-Q1BP53L
+[2017.06.02-22.22.16:042][  0]LogInit: User: Sussane
+[2017.06.02-22.22.16:042][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.02-22.22.16:042][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2017.06.02-22.22.16:042][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.02-22.22.16:042][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.02-22.22.16:042][  0]LogMemory: Process Physical Memory: 272.50 MB used, 272.50 MB peak
+[2017.06.02-22.22.16:042][  0]LogMemory: Process Virtual Memory: 263.13 MB used, 263.13 MB peak
+[2017.06.02-22.22.16:042][  0]LogMemory: Physical Memory: 7858.48 MB used,  8373.20 MB free, 16231.68 MB total
+[2017.06.02-22.22.16:042][  0]LogMemory: Virtual Memory: 640.38 MB used,  8373.20 MB free, 134217728.00 MB total
+[2017.06.02-22.22.16:099][  0]LogInit: Using OS detected language (en-GB).
+[2017.06.02-22.22.16:099][  0]LogInit: Using OS detected locale (en-AU).
+[2017.06.02-22.22.16:101][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.06.02-22.22.17:045][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.02-22.22.17:065][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.06.02-22.22.17:065][  0]LogD3D11RHI:       3052/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.06.02-22.22.17:067][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.02-22.22.17:067][  0]LogD3D11RHI:       0/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.02-22.22.17:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.02-22.22.17:070][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.02-22.22.17:071][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.02-22.22.17:071][  0]LogWindows: EnumDisplayDevices:
+[2017.06.02-22.22.17:071][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.06.02-22.22.17:071][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.06.02-22.22.17:071][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.06.02-22.22.17:071][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.02-22.22.17:071][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.02-22.22.17:072][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.06.02-22.22.17:072][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.02-22.22.17:072][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.06.02-22.22.17:072][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.2 (internal:22.19.165.512, unified:22.19.165.512)
+[2017.06.02-22.22.17:072][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.02-22.22.17:072][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.02-22.22.17:179][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.02-22.22.17:193][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.02-22.22.17:194][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/Sussane/Documents/Unreal Projects/MAIN/Intermediate/Shaders/WorkingDirectory/3364/).
+[2017.06.02-22.22.17:194][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sussane/AppData/Local/Temp/UnrealShaderWorkingDir/053120A744E5C36BB010B6ACF553E6B5/'.
+[2017.06.02-22.22.17:194][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.02-22.22.18:165][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.02-22.22.18:203][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.02-22.22.18:241][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.02-22.22.18:276][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.02-22.22.18:312][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.02-22.22.18:347][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.02-22.22.18:382][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.02-22.22.18:415][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.02-22.22.18:444][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.02-22.22.18:478][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.02-22.22.18:510][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.02-22.22.18:545][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.02-22.22.18:581][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.02-22.22.18:620][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.02-22.22.18:654][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.02-22.22.18:722][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.02-22.22.18:722][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.02-22.22.18:747][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.02-22.22.18:822][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.02-22.22.18:843][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.02-22.22.18:878][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.02-22.22.18:914][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.02-22.22.18:946][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.02-22.22.18:981][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.02-22.22.18:981][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.02-22.22.19:348][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.02-22.22.19:450][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.02-22.22.19:451][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.02-22.22.19:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sussane/Documents/Unreal Projects/MAIN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.02-22.22.19:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.02-22.22.19:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sussane/Documents/Unreal Projects/MAIN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.02-22.22.19:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.02-22.22.19:471][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.02-22.22.19:482][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sussane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.02-22.22.19:491][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.02-22.22.19:492][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.02-22.22.19:492][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.02-22.22.19:492][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.02-22.22.19:820][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.02-22.22.19:907][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.02-22.22.20:051][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.02-22.22.20:087][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.02-22.22.20:121][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.02-22.22.20:121][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.02-22.22.20:121][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.02-22.22.20:591][  0]LogNetVersion: MAIN , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1844700196)
+[2017.06.02-22.22.20:646][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.06.02-22.22.20:694][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.033116 seconds
+[2017.06.02-22.22.20:702][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.02-22.22.20:702][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.02-22.22.20:702][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.02-22.22.20:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.02-22.22.22:741][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.02-22.22.22:777][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.02-22.22.23:176][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.02-22.22.23:447][  0]SourceControl: Info Source control is disabled
+[2017.06.02-22.22.23:448][  0]SourceControl: Info Source control is disabled
+[2017.06.02-22.22.23:479][  0]SourceControl: Info Source control is disabled
+[2017.06.02-22.22.23:508][  0]SourceControl: Info Source control is disabled
+[2017.06.02-22.22.23:938][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.02-22.22.24:342][  0]LogEngine: Initializing Engine...
+[2017.06.02-22.22.24:343][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.02-22.22.24:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.02-22.22.24:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.02-22.22.24:615][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.02-22.22.24:635][  0]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-22.22.24:643][  0]LogInit: FAudioDevice initialized.
+[2017.06.02-22.22.24:689][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Sussane/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.02-22.22.24:705][  0]LogInit: Texture streaming: Enabled
+[2017.06.02-22.22.24:770][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.02-22.22.24:910][  0]LogInit: Transaction tracking system initialized
+[2017.06.02-22.22.25:127][  0]BlueprintLog: New page: Editor Load
+[2017.06.02-22.22.25:872][  0]LocalizationService: Info Localization service is disabled
+[2017.06.02-22.22.26:351][  0]LogConsoleResponse:Display: 
+[2017.06.02-22.22.26:469][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/' took 0.01s
+[2017.06.02-22.22.26:469][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.02-22.22.26:469][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.02-22.22.27:125][  0]SourceControl: Info Source control is disabled
+[2017.06.02-22.22.27:125][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.02-22.22.27:125][  0]LightingResults: New page: Lighting Build
+[2017.06.02-22.22.27:153][  0]MapCheck: New page: Map Check
+[2017.06.02-22.22.27:153][  0]LightingResults: New page: Lighting Build
+[2017.06.02-22.22.27:333][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.02-22.22.27:334][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.02-22.22.27:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.02-22.22.27:353][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.02-22.22.27:388][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.028ms to complete.
+[2017.06.02-22.22.27:388][  0]LogFileHelpers: Loading map 'Template_Default' took 0.263
+[2017.06.02-22.22.27:494][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.02-22.22.27:691][  0]LogCollectionManager: Loaded 0 collections in 0.000628 seconds
+[2017.06.02-22.22.27:781][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Collections/' took 0.01s
+[2017.06.02-22.22.27:781][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Developers/Sussane/Collections/' took 0.01s
+[2017.06.02-22.22.27:781][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Collections/' took 0.01s
+[2017.06.02-22.22.27:781][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.02-22.22.27:789][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2017.06.02-22.22.27:834][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.02-22.22.28:856][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.02-22.22.28:886][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.02-22.22.28:916][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.02-22.22.28:921][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.02-22.22.28:922][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.02-22.22.28:958][  0]LogSlate: Took 0.017761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.02-22.22.29:107][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.02-22.22.29:285][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.02-22.22.29:364][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.06.02-22.22.29:364][  0]LogLoad: (Engine Initialization) Total time: 14.48 seconds
+[2017.06.02-22.22.29:364][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.06.02-22.22.29:364][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.02-22.22.29:374][  0]LogOcInput: OculusInput pre-init called
+[2017.06.02-22.22.29:374][  0]LogHMD: Starting GearVRController plugin
+[2017.06.02-22.22.29:394][  0]LogAssetRegistry: Asset discovery search completed in 8.7705 seconds
+[2017.06.02-22.22.29:395][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.02-22.22.29:395][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2017.06.02-22.22.29:396][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.02-22.24.17:678][229]LogActorFactory: Actor Factory created Cube
+[2017.06.02-22.24.18:588][308]LogActorFactory: Actor Factory created Cube
+[2017.06.02-22.24.29:047][338]Cmd: DELETE
+[2017.06.02-22.24.29:047][338]Cmd: ACTOR DELETE
+[2017.06.02-22.24.29:048][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.02-22.24.29:060][338]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.02-22.24.31:720][597]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.06.02-22.24.49:763][265]Cmd: TRANSACTION UNDO
+[2017.06.02-22.24.49:763][265]LogEditorTransaction: Undo Move Actors
+[2017.06.02-22.24.49:826][265]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.02-22.24.50:505][311]Cmd: TRANSACTION UNDO
+[2017.06.02-22.24.50:505][311]LogEditorTransaction: Undo Move Actors
+[2017.06.02-22.25.12:590][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.02-22.25.13:240][470]Cmd: DELETE
+[2017.06.02-22.25.13:240][470]Cmd: ACTOR DELETE
+[2017.06.02-22.25.13:241][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.02-22.25.13:255][470]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.02-22.26.51:405][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.02-22.26.58:169][ 77]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.02-22.26.58:813][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.02-22.26.58:913][ 77]LogSavePackage: Save=86.48ms
+[2017.06.02-22.26.58:913][ 77]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN821447434E99AAF580A92BBEE5DCCD0D.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.02-22.26.58:918][ 77]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.02-22.26.58:942][ 77]LogFileHelpers: Saving map 'MAIN' took 0.839
+[2017.06.02-22.26.59:022][ 86]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.02-22.45.39:793][284]LogActorFactory: Actor Factory created Cube
+[2017.06.02-22.45.40:767][368]LogActorFactory: Actor Factory created Cube
+[2017.06.02-22.45.43:664][640]MapCheck: New page: Map Check
+[2017.06.02-22.45.43:699][640]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.02-22.45.43:699][640]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.02-22.45.43:764][640]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.02-22.45.43:773][640]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.06.02-22.45.43:780][640]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.06.02-22.45.44:459][640]TextureStreamingBuild:Display: Compiling optional shaders took 0.701 seconds.
+[2017.06.02-22.45.44:463][640]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
+[2017.06.02-22.45.44:468][640]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.06.02-22.45.44:521][640]LightingResults: New page: Lighting Build - 3 Jun 2017 6:45:44 pm
+[2017.06.02-22.45.44:575][640]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.02-22.45.44:660][640]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.02-22.45.44:670][640]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.02-22.45.45:183][640]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.02-22.45.45:183][640]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3364
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.02-22.45.47:821][640]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.02-22.45.47:925][640]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.02-22.45.47:925][640]MapCheck: New page: MAIN - 3 Jun 2017 6:45:47 pm
+[2017.06.02-22.45.47:973][640]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.06.02-22.45.48:007][640]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 83.158ms to complete.
+[2017.06.02-22.45.48:029][640]LogEditorBuildUtils: Build time 0:04
+[2017.06.02-22.45.49:777][705]Job is a success!
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.06.02-22.45.49:981][706]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X256)
+[2017.06.02-22.45.50:009][706]Lightmass on DESKTOP-Q1BP53L: 1.07 sec total, 115 ms importing, 36 ms setup, 274 ms photons, 465 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 3.09 sec total, 405 ms processing.
+[2017.06.02-22.45.50:040][706]LogStaticLightingSystem: Illumination: 5.52 sec (58 ms encoding lightmaps, 38 ms encoding shadowmaps)
+[2017.06.02-22.45.50:041][706]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.0 MB streaming, 0.5 MB non-streaming), 6 textures
+[2017.06.02-22.45.50:041][706]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 3 textures
+[2017.06.02-22.45.50:824][706]DumpUnbuiltLightIteractions
+[2017.06.02-22.45.50:824][706]Lights with unbuilt interactions: 0
+[2017.06.02-22.45.50:824][706]
+[2017.06.02-22.45.50:824][706]Primitives with unbuilt interactions: 0
+[2017.06.02-22.45.50:836][707]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.02-22.45.50:836][707]MapCheck: New page: MAIN - 3 Jun 2017 6:45:50 pm
+[2017.06.02-22.45.50:870][707]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.736ms to complete.
+[2017.06.02-22.45.57:114][294]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-22.45.57:131][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-22.45.57:131][294]PIE: New page: PIE session: MAIN (3 Jun 2017 6:45:57 pm)
+[2017.06.02-22.45.57:131][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-22.45.57:135][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004010s)
+[2017.06.02-22.45.57:136][294]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-22.45.57:136][294]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.06.02-22.45.57:136][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005051s)
+[2017.06.02-22.45.57:154][294]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-22.45.57:159][294]LogInit: FAudioDevice initialized.
+[2017.06.02-22.45.57:198][294]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-22.45.57:243][294]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-08.45.57
+[2017.06.02-22.45.57:243][294]LogWorld: Bringing up level for play took: 0.000867
+[2017.06.02-22.45.57:269][294]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.02-22.45.57:271][294]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 1.068
+[2017.06.02-22.46.06:517][245]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-22.46.06:526][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-22.46.06:527][245]PIE: New page: PIE session: MAIN (3 Jun 2017 6:46:06 pm)
+[2017.06.02-22.46.06:527][245]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-22.46.06:531][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004126s)
+[2017.06.02-22.46.06:531][245]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-22.46.06:531][245]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.06.02-22.46.06:531][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.004842s)
+[2017.06.02-22.46.06:548][245]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-22.46.06:552][245]LogInit: FAudioDevice initialized.
+[2017.06.02-22.46.06:586][245]LogLoad: Game class is 'GameModeBase'
+[2017.06.02-22.46.06:587][245]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-08.46.06
+[2017.06.02-22.46.06:588][245]LogWorld: Bringing up level for play took: 0.000700
+[2017.06.02-22.46.06:588][245]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.385
+[2017.06.02-22.46.13:207][949]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.02-22.47.29:136][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.02-22.48.36:615][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.02-22.48.36:664][ 53]LogSavePackage: Save=43.52ms
+[2017.06.02-22.48.36:664][ 53]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_Auto161EC19504F858186852B54BBA92A3E88.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto1.umap'
+[2017.06.02-22.48.36:665][ 53]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto1.umap
+[2017.06.02-22.48.36:666][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAIN' took 0.059
+[2017.06.02-22.48.36:666][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2017.06.02-22.48.36:667][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MAIN_BuiltData] ([1] browsable assets)...
+[2017.06.02-22.48.36:667][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/MAIN_BuiltData]
+[2017.06.02-22.48.36:667][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.02-22.48.36:676][ 53]LogSavePackage: Save=8.27ms
+[2017.06.02-22.48.36:676][ 53]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData_Auto1CBF9ECC943A24B4F03762DA9EA116688.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_BuiltData_Auto1.uasset'
+[2017.06.02-22.48.36:677][ 53]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_BuiltData_Auto1.uasset
+[2017.06.02-22.48.36:677][ 53]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.06.02-22.55.23:627][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.02-22.55.24:411][ 68]Cmd: DELETE
+[2017.06.02-22.55.24:411][ 68]Cmd: ACTOR DELETE
+[2017.06.02-22.55.24:411][ 68]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.02-22.55.24:419][ 68]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.02-22.58.37:349][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.02-22.58.37:409][966]LogSavePackage: Save=53.25ms
+[2017.06.02-22.58.37:409][966]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_Auto2AAE92A154C7FD226A5E142A854245768.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto2.umap'
+[2017.06.02-22.58.37:411][966]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Autosaves/Game/MAIN_Auto2.umap
+[2017.06.02-22.58.37:413][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAIN' took 0.076
+[2017.06.02-22.58.37:413][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2017.06.02-22.58.43:569][196]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.02-22.58.43:622][197]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MAIN
+[2017.06.02-22.58.43:622][197]LogTemp: CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-22.58.43:622][197]LogTemp: Initial Dir: D:\unreallengine\UE_4.16
+[2017.06.02-22.58.43:622][197]LogTemp: Env CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-22.58.43:622][197]LogTemp: BranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries
+[2017.06.02-22.58.43:622][197]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sussane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.02-22.59.11:854][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.02-22.59.11:914][483]LogSavePackage: Save=47.41ms
+[2017.06.02-22.59.11:914][483]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN747195ED43132682A15B8CA5283716EE.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.02-22.59.11:919][483]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.02-22.59.11:946][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.02-22.59.11:968][483]LogSavePackage: Save=21.09ms
+[2017.06.02-22.59.11:968][483]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData902A8E3C4E5A03BDC45A49BA78585BF7.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.02-22.59.11:969][483]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.02-23.18.28:442][540]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.06.02-23.18.29:429][540]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.06.02-23.19.08:648][850]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.02-23.19.11:922][ 83]BlueprintLog: New page: Compile Mode1
+[2017.06.02-23.19.12:590][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mode1" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Mode1.uasset" SILENT=true
+[2017.06.02-23.19.12:601][117]LogSavePackage: Save=9.73ms
+[2017.06.02-23.19.12:601][117]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Mode1B2E213A943E54B0EAE7DFDBF63DDD76B.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Mode1.uasset'
+[2017.06.02-23.19.12:603][117]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Mode1.uasset
+[2017.06.02-23.19.16:973][501]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.19.17:004][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.19.17:004][501]PIE: New page: PIE session: MAIN (3 Jun 2017 7:19:17 pm)
+[2017.06.02-23.19.17:004][501]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.19.17:009][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005115s)
+[2017.06.02-23.19.17:010][501]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.19.17:010][501]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2017.06.02-23.19.17:010][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.006179s)
+[2017.06.02-23.19.17:043][501]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.19.17:048][501]LogInit: FAudioDevice initialized.
+[2017.06.02-23.19.17:078][501]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.19.17:080][501]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.19.17
+[2017.06.02-23.19.17:080][501]LogWorld: Bringing up level for play took: 0.001136
+[2017.06.02-23.19.17:122][501]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.19.17:122][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.19.17:122][501]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.19.17:150][501]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.19.17:150][501]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.947
+[2017.06.02-23.19.25:140][290]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.06.02-23.19.26:811][448]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.02-23.19.36:391][956]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.02-23.19.36:424][956]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MAIN
+[2017.06.02-23.19.36:424][956]LogTemp: CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-23.19.36:424][956]LogTemp: Initial Dir: D:\unreallengine\UE_4.16
+[2017.06.02-23.19.36:424][956]LogTemp: Env CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-23.19.36:428][956]LogTemp: BranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries
+[2017.06.02-23.19.36:438][956]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sussane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.02-23.24.19:981][ 22]LogSlate: Took 0.030243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.02-23.24.46:550][ 55]LogSlate: Took 0.025459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.02-23.25.20:514][380]BlueprintLog: New page: Compile Player
+[2017.06.02-23.25.20:991][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.25.21:009][417]LogSavePackage: Save=17.77ms
+[2017.06.02-23.25.21:009][417]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerC487EB984622A14217A2CF8F29F99561.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.25.21:011][417]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.25.50:987][464]BlueprintLog: New page: Compile Player
+[2017.06.02-23.25.51:450][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.25.51:472][506]LogSavePackage: Save=17.13ms
+[2017.06.02-23.25.51:472][506]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player22EEDC8B4A3E3F9DB97229BA184CA451.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.25.51:474][506]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.25.54:504][694]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.25.54:521][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.25.54:521][694]PIE: New page: PIE session: MAIN (3 Jun 2017 7:25:54 pm)
+[2017.06.02-23.25.54:521][694]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.25.54:525][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004231s)
+[2017.06.02-23.25.54:526][694]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.25.54:526][694]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.06.02-23.25.54:526][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.004955s)
+[2017.06.02-23.25.54:553][694]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.25.54:557][694]LogInit: FAudioDevice initialized.
+[2017.06.02-23.25.54:592][694]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.25.54:593][694]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.25.54
+[2017.06.02-23.25.54:593][694]LogWorld: Bringing up level for play took: 0.000703
+[2017.06.02-23.25.54:594][694]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.25.54:594][694]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.25.54:594][694]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.25.54:594][694]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.25.54:594][694]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.391
+[2017.06.02-23.27.01:129][667]BlueprintLog: New page: Compile Player
+[2017.06.02-23.27.02:081][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.27.02:103][766]LogSavePackage: Save=20.05ms
+[2017.06.02-23.27.02:103][766]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player521620EB46A0CE2DDF89E1B88AD5FE76.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.27.02:105][766]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.27.03:532][924]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.27.03:548][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.27.03:548][924]PIE: New page: PIE session: MAIN (3 Jun 2017 7:27:03 pm)
+[2017.06.02-23.27.03:549][924]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.27.03:552][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003742s)
+[2017.06.02-23.27.03:553][924]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.27.03:553][924]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2017.06.02-23.27.03:553][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.004415s)
+[2017.06.02-23.27.03:575][924]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.27.03:578][924]LogInit: FAudioDevice initialized.
+[2017.06.02-23.27.03:605][924]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.27.03:607][924]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.27.03
+[2017.06.02-23.27.03:607][924]LogWorld: Bringing up level for play took: 0.000723
+[2017.06.02-23.27.03:607][924]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.27.03:607][924]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.27.03:607][924]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.27.03:608][924]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.27.03:608][924]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN -0.596
+[2017.06.02-23.29.34:690][446]BlueprintLog: New page: Compile Player
+[2017.06.02-23.29.35:150][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.29.35:177][485]LogSavePackage: Save=25.63ms
+[2017.06.02-23.29.35:177][485]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player2BB3EED14A952DC051943FA0F63E8378.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.29.35:179][485]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.29.38:904][928]BlueprintLog: New page: Compile Player
+[2017.06.02-23.29.39:412][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.29.39:436][975]LogSavePackage: Save=22.24ms
+[2017.06.02-23.29.39:436][975]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerD77F85FE40B8AE36B0074BB77899E4FC.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.29.39:438][975]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.29.40:859][118]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.29.40:879][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.29.40:879][118]PIE: New page: PIE session: MAIN (3 Jun 2017 7:29:40 pm)
+[2017.06.02-23.29.40:879][118]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.29.40:883][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004519s)
+[2017.06.02-23.29.40:884][118]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.29.40:884][118]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.06.02-23.29.40:885][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005602s)
+[2017.06.02-23.29.40:915][118]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.29.40:920][118]LogInit: FAudioDevice initialized.
+[2017.06.02-23.29.40:949][118]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.29.40:951][118]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.29.40
+[2017.06.02-23.29.40:951][118]LogWorld: Bringing up level for play took: 0.000988
+[2017.06.02-23.29.40:952][118]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.29.40:952][118]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.29.40:952][118]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.29.40:952][118]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.29.40:952][118]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.749
+[2017.06.02-23.29.46:701][729]MapCheck: New page: Map Check
+[2017.06.02-23.29.46:739][729]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.02-23.29.46:739][729]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.02-23.29.46:775][729]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.02-23.29.46:780][729]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.06.02-23.29.47:183][729]TextureStreamingBuild:Display: Compiling optional shaders took 0.412 seconds.
+[2017.06.02-23.29.47:186][729]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.06.02-23.29.47:190][729]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.06.02-23.29.47:203][729]LightingResults: New page: Lighting Build - 3 Jun 2017 7:29:47 pm
+[2017.06.02-23.29.47:209][729]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.02-23.29.47:210][729]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.02-23.29.47:210][729]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.02-23.29.47:211][729]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.02-23.29.47:211][729]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3364
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.02-23.29.51:722][729]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.02-23.29.51:790][729]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.02-23.29.51:790][729]MapCheck: New page: MAIN - 3 Jun 2017 7:29:51 pm
+[2017.06.02-23.29.51:826][729]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.446ms to complete.
+[2017.06.02-23.29.51:849][729]LogEditorBuildUtils: Build time 0:05
+[2017.06.02-23.29.53:160][795]Job is a success!
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2017.06.02-23.29.53:300][797]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X256)
+[2017.06.02-23.29.53:328][797]Lightmass on DESKTOP-Q1BP53L: 801 ms total, 100 ms importing, 18 ms setup, 271 ms photons, 372 ms processing, 0 ms extra exporting [7/7 mappings]. Threads: 2.45 sec total, 365 ms processing.
+[2017.06.02-23.29.53:338][797]LogStaticLightingSystem: Illumination: 6.10 sec (24 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2017.06.02-23.29.53:338][797]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.0 MB streaming, 0.5 MB non-streaming), 4 textures
+[2017.06.02-23.29.53:338][797]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2017.06.02-23.29.53:723][797]DumpUnbuiltLightIteractions
+[2017.06.02-23.29.53:723][797]Lights with unbuilt interactions: 0
+[2017.06.02-23.29.53:723][797]
+[2017.06.02-23.29.53:723][797]Primitives with unbuilt interactions: 0
+[2017.06.02-23.29.53:737][798]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.02-23.29.53:738][798]MapCheck: New page: MAIN - 3 Jun 2017 7:29:53 pm
+[2017.06.02-23.29.53:772][798]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.974ms to complete.
+[2017.06.02-23.30.27:342][678]BlueprintLog: New page: Compile Player
+[2017.06.02-23.30.27:763][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.30.27:789][715]LogSavePackage: Save=24.11ms
+[2017.06.02-23.30.27:789][715]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerD0009C884E172781DDDEE3A7BD6ADBF6.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.30.27:791][715]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.30.29:079][851]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.30.29:096][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.30.29:096][851]PIE: New page: PIE session: MAIN (3 Jun 2017 7:30:29 pm)
+[2017.06.02-23.30.29:096][851]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.30.29:101][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005200s)
+[2017.06.02-23.30.29:102][851]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.30.29:102][851]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.06.02-23.30.29:102][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005907s)
+[2017.06.02-23.30.29:127][851]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.30.29:131][851]LogInit: FAudioDevice initialized.
+[2017.06.02-23.30.29:164][851]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.30.29:165][851]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.30.29
+[2017.06.02-23.30.29:166][851]LogWorld: Bringing up level for play took: 0.000716
+[2017.06.02-23.30.29:166][851]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.30.29:166][851]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.30.29:166][851]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.30.29:167][851]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.30.29:167][851]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.963
+[2017.06.02-23.30.46:887][328]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.02-23.30.46:924][329]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MAIN
+[2017.06.02-23.30.46:924][329]LogTemp: CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-23.30.46:924][329]LogTemp: Initial Dir: D:\unreallengine\UE_4.16
+[2017.06.02-23.30.46:924][329]LogTemp: Env CWD: D:\unreallengine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.02-23.30.46:937][330]LogTemp: BranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-Q1BP53L/D/unreallengine/UE_4.16/Engine/Binaries
+[2017.06.02-23.30.46:937][330]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sussane\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.02-23.31.22:033][596]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.31.22:050][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.31.22:050][596]PIE: New page: PIE session: MAIN (3 Jun 2017 7:31:22 pm)
+[2017.06.02-23.31.22:050][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.31.22:055][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005000s)
+[2017.06.02-23.31.22:056][596]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.31.22:056][596]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2017.06.02-23.31.22:056][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005928s)
+[2017.06.02-23.31.22:093][596]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.31.22:098][596]LogInit: FAudioDevice initialized.
+[2017.06.02-23.31.22:149][596]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.31.22:151][596]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.31.22
+[2017.06.02-23.31.22:151][596]LogWorld: Bringing up level for play took: 0.000719
+[2017.06.02-23.31.22:151][596]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.31.22:151][596]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.31.22:151][596]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.31.22:152][596]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.31.22:152][596]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN -0.051
+[2017.06.02-23.31.31:297][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.02-23.31.31:359][655]LogSavePackage: Save=40.14ms
+[2017.06.02-23.31.31:359][655]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN05B8907547141CACCE5BFFA256B37DC8.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.02-23.31.31:362][655]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.02-23.31.31:389][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.02-23.31.31:409][655]LogSavePackage: Save=15.66ms
+[2017.06.02-23.31.31:409][655]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData5FC9F6CA4B9368BB4C4C8B8B7A7BC473.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.02-23.31.31:411][655]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.02-23.34.23:666][398]BlueprintLog: New page: Compile Player
+[2017.06.02-23.34.24:622][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.34.24:655][497]LogSavePackage: Save=27.29ms
+[2017.06.02-23.34.24:655][497]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player32F7DFCE480699EEF72DEAB9FBBE8CDC.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.34.24:657][497]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.35.05:434][385]BlueprintLog: New page: Compile Player
+[2017.06.02-23.35.05:964][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.35.05:991][435]LogSavePackage: Save=25.71ms
+[2017.06.02-23.35.05:991][435]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerBC9C5BA441F85F9C85FF0088FFBE5DDE.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.35.05:993][435]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.35.56:976][382]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.06.02-23.35.59:431][639]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.02-23.36.00:218][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.02-23.36.00:273][714]LogSavePackage: Save=39.71ms
+[2017.06.02-23.36.00:273][714]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN9E7B57C443E2BA25DD46D09E2B5EE686.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.02-23.36.00:274][714]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.02-23.36.00:298][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.02-23.36.00:313][714]LogSavePackage: Save=14.22ms
+[2017.06.02-23.36.00:313][714]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltData7A95338944A477CB67175683ABC70543.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.02-23.36.00:314][714]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.02-23.39.08:448][625]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.02-23.39.16:660][359]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.06.02-23.40.00:808][622]LogStaticMesh: Building static mesh Box_Brush13_StaticMesh...
+[2017.06.02-23.40.00:808][622]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.02-23.40.00:810][622]LogStaticMesh: Built static mesh [0.00s] /Game/Box_Brush13_StaticMesh.Box_Brush13_StaticMesh
+[2017.06.02-23.40.00:813][622]LogActorFactory: Actor Factory created Box_Brush13_StaticMesh
+[2017.06.02-23.40.00:838][622]EditorErrors: New page: Actor Reattachment
+[2017.06.02-23.40.03:214][858]MapCheck: New page: Map Check
+[2017.06.02-23.40.03:252][858]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.02-23.40.03:253][858]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.02-23.40.03:281][858]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.02-23.40.03:286][858]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.06.02-23.40.03:644][858]TextureStreamingBuild:Display: Compiling optional shaders took 0.366 seconds.
+[2017.06.02-23.40.03:646][858]LogLevel:Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.06.02-23.40.03:650][858]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.06.02-23.40.03:661][858]LightingResults: New page: Lighting Build - 3 Jun 2017 7:40:03 pm
+[2017.06.02-23.40.03:666][858]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.02-23.40.03:667][858]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.02-23.40.03:667][858]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.02-23.40.03:668][858]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.02-23.40.03:668][858]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3364
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.02-23.40.08:173][858]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.02-23.40.08:242][858]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.02-23.40.08:242][858]MapCheck: New page: MAIN - 3 Jun 2017 7:40:08 pm
+[2017.06.02-23.40.08:243][858]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.06.02-23.40.08:279][858]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 36.349ms to complete.
+[2017.06.02-23.40.08:301][858]LogEditorBuildUtils: Build time 0:05
+[2017.06.02-23.40.09:488][910]Job is a success!
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2017.06.02-23.40.09:634][912]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X256)
+[2017.06.02-23.40.09:660][912]Lightmass on DESKTOP-Q1BP53L: 716 ms total, 83 ms importing, 17 ms setup, 275 ms photons, 303 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 1.96 sec total, 313 ms processing.
+[2017.06.02-23.40.09:669][912]LogStaticLightingSystem: Illumination: 5.97 sec (23 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2017.06.02-23.40.09:669][912]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.0 MB streaming, 0.5 MB non-streaming), 4 textures
+[2017.06.02-23.40.09:669][912]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2017.06.02-23.40.10:175][912]DumpUnbuiltLightIteractions
+[2017.06.02-23.40.10:175][912]Lights with unbuilt interactions: 0
+[2017.06.02-23.40.10:175][912]
+[2017.06.02-23.40.10:175][912]Primitives with unbuilt interactions: 0
+[2017.06.02-23.40.10:187][913]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.02-23.40.10:187][913]MapCheck: New page: MAIN - 3 Jun 2017 7:40:10 pm
+[2017.06.02-23.40.10:222][913]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.721ms to complete.
+[2017.06.02-23.40.27:311][786]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2017.06.02-23.41.10:623][955]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.06.02-23.41.33:335][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.02-23.41.33:393][133]LogSavePackage: Save=40.24ms
+[2017.06.02-23.41.33:393][133]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAINFF6CA5C14122F8C901CDCA96DF56129C.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap'
+[2017.06.02-23.41.33:395][133]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN.umap
+[2017.06.02-23.41.33:410][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAIN_BuiltData" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset" SILENT=true
+[2017.06.02-23.41.33:430][133]LogSavePackage: Save=15.13ms
+[2017.06.02-23.41.33:430][133]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/MAIN_BuiltDataCBAB13A4466361A5169FAA932B85E590.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset'
+[2017.06.02-23.41.33:431][133]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/MAIN_BuiltData.uasset
+[2017.06.02-23.41.35:527][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_Brush13_StaticMesh)
+[2017.06.02-23.42.18:338][553]LogEditorTransaction: Undo Add Component
+[2017.06.02-23.42.27:161][242]LogActorFactory: Actor Factory created Box_Brush13_StaticMesh
+[2017.06.02-23.42.51:987][362]LogEditorTransaction: Undo Modify Component(s)
+[2017.06.02-23.43.33:865][669]BlueprintLog: New page: Compile Player
+[2017.06.02-23.43.38:666][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.43.38:710][810]LogSavePackage: Save=34.40ms
+[2017.06.02-23.43.38:710][810]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player91B3AEF6492E12960A573FA08ADE8CDB.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.43.38:713][810]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.43.53:001][219]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.43.53:016][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.43.53:016][219]PIE: New page: PIE session: MAIN (3 Jun 2017 7:43:53 pm)
+[2017.06.02-23.43.53:016][219]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.43.53:020][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004277s)
+[2017.06.02-23.43.53:021][219]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.43.53:021][219]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.06.02-23.43.53:021][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005007s)
+[2017.06.02-23.43.53:050][219]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.43.53:055][219]LogInit: FAudioDevice initialized.
+[2017.06.02-23.43.53:084][219]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.43.53:085][219]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.43.53
+[2017.06.02-23.43.53:086][219]LogWorld: Bringing up level for play took: 0.000735
+[2017.06.02-23.43.53:086][219]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.43.53:086][219]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.43.53:086][219]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.43.53:087][219]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.43.53:087][219]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.884
+[2017.06.02-23.44.06:613][384]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.44.06:624][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.44.06:624][384]PIE: New page: PIE session: MAIN (3 Jun 2017 7:44:06 pm)
+[2017.06.02-23.44.06:624][384]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.44.06:628][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003662s)
+[2017.06.02-23.44.06:628][384]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.44.06:628][384]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2017.06.02-23.44.06:628][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.004321s)
+[2017.06.02-23.44.06:649][384]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.44.06:653][384]LogInit: FAudioDevice initialized.
+[2017.06.02-23.44.06:682][384]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.44.06:683][384]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.44.06
+[2017.06.02-23.44.06:683][384]LogWorld: Bringing up level for play took: 0.000753
+[2017.06.02-23.44.06:684][384]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.44.06:684][384]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.44.06:684][384]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.44.06:684][384]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.44.06:684][384]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.481
+[2017.06.02-23.44.26:518][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Box_Brush13_StaticMesh" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Assets/Box_Brush13_StaticMesh.uasset" SILENT=true
+[2017.06.02-23.44.26:531][705]LogSavePackage: Save=11.92ms
+[2017.06.02-23.44.26:531][705]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Box_Brush13_StaticMeshC16AF23B4A33F2DF3C604795E9AF5B29.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Assets/Box_Brush13_StaticMesh.uasset'
+[2017.06.02-23.44.26:532][705]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Assets/Box_Brush13_StaticMesh.uasset
+[2017.06.02-23.44.26:534][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Box_Brush13_StaticMesh" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Box_Brush13_StaticMesh.uasset" SILENT=true
+[2017.06.02-23.44.26:539][705]LogSavePackage: Save=3.35ms
+[2017.06.02-23.44.26:539][705]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Box_Brush13_StaticMeshC1F70FDE4282662473A02A9AF60FE1A0.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Box_Brush13_StaticMesh.uasset'
+[2017.06.02-23.44.26:540][705]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Box_Brush13_StaticMesh.uasset
+[2017.06.02-23.44.52:454][342]LogEditorTransaction: Undo Add Component
+[2017.06.02-23.45.54:663][632]BlueprintLog: New page: Compile Player
+[2017.06.02-23.45.55:306][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.45.55:346][668]LogSavePackage: Save=37.12ms
+[2017.06.02-23.45.55:346][668]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player488C47014F82B51915B5AA899D2D8026.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.45.55:347][668]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.45.56:725][793]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.45.56:736][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.45.56:736][793]PIE: New page: PIE session: MAIN (3 Jun 2017 7:45:56 pm)
+[2017.06.02-23.45.56:736][793]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.45.56:741][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004263s)
+[2017.06.02-23.45.56:741][793]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.45.56:741][793]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.06.02-23.45.56:741][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005061s)
+[2017.06.02-23.45.56:763][793]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.45.56:767][793]LogInit: FAudioDevice initialized.
+[2017.06.02-23.45.56:797][793]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.45.56:798][793]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.45.56
+[2017.06.02-23.45.56:798][793]LogWorld: Bringing up level for play took: 0.000688
+[2017.06.02-23.45.56:799][793]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.45.56:799][793]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.45.56:799][793]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.45.56:799][793]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.45.56:799][793]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.596
+[2017.06.02-23.47.33:001][375]BlueprintLog: New page: Compile Player
+[2017.06.02-23.48.04:579][348]BlueprintLog: New page: Compile Player
+[2017.06.02-23.48.07:588][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.48.07:617][692]LogSavePackage: Save=28.13ms
+[2017.06.02-23.48.07:617][692]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player581CC65F47A4B2DB78EA61BF65E4F5B5.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.48.07:619][692]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.48.13:739][426]LogEditorTransaction: Undo Delete current selection
+[2017.06.02-23.48.14:190][474]LogEditorTransaction: Undo Delete current selection
+[2017.06.02-23.48.22:986][521]BlueprintLog: New page: Compile Player
+[2017.06.02-23.48.23:458][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.48.23:489][562]LogSavePackage: Save=28.27ms
+[2017.06.02-23.48.23:489][562]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/Player6B9B3ED74DDC1BE93FF18FB639B48130.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.48.23:491][562]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.48.25:106][729]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.48.25:118][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.48.25:118][729]PIE: New page: PIE session: MAIN (3 Jun 2017 7:48:25 pm)
+[2017.06.02-23.48.25:118][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.48.25:123][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004679s)
+[2017.06.02-23.48.25:123][729]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.48.25:124][729]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.06.02-23.48.25:124][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005601s)
+[2017.06.02-23.48.25:154][729]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.48.25:158][729]LogInit: FAudioDevice initialized.
+[2017.06.02-23.48.25:193][729]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.48.25:194][729]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.48.25
+[2017.06.02-23.48.25:194][729]LogWorld: Bringing up level for play took: 0.000773
+[2017.06.02-23.48.25:195][729]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.48.25:195][729]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.48.25:195][729]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.48.25:196][729]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.48.25:196][729]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.993
+[2017.06.02-23.48.44:682][925]BlueprintLog: New page: Compile Player
+[2017.06.02-23.48.45:415][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset" SILENT=true
+[2017.06.02-23.48.45:448][982]LogSavePackage: Save=27.90ms
+[2017.06.02-23.48.45:448][982]LogSavePackage: Moving 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Saved/PlayerC938541A4EAD4228A7FB60949BF0DED7.tmp' to 'C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset'
+[2017.06.02-23.48.45:449][982]LogSavePackage:Display: Finished SavePackage C:/Users/Sussane/Documents/Unreal Projects/MAIN/Content/Blueprints/Player.uasset
+[2017.06.02-23.48.46:917][127]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.02-23.48.46:929][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.02-23.48.46:929][127]PIE: New page: PIE session: MAIN (3 Jun 2017 7:48:46 pm)
+[2017.06.02-23.48.46:929][127]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2017.06.02-23.48.46:933][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004339s)
+[2017.06.02-23.48.46:934][127]LogAIModule: Creating AISystem for world MAIN
+[2017.06.02-23.48.46:934][127]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.06.02-23.48.46:934][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.005056s)
+[2017.06.02-23.48.46:956][127]LogInit: XAudio2 using 'Digital Output (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.02-23.48.46:960][127]LogInit: FAudioDevice initialized.
+[2017.06.02-23.48.46:994][127]LogLoad: Game class is 'Mode1_C'
+[2017.06.02-23.48.46:995][127]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2017.06.03-09.48.46
+[2017.06.02-23.48.46:995][127]LogWorld: Bringing up level for play took: 0.000835
+[2017.06.02-23.48.46:996][127]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.48.46:996][127]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.02-23.48.46:996][127]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.48.46:997][127]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.02-23.48.46:997][127]PIE: Info Play in editor start time for /Game/UEDPIE_0_MAIN 0.794
+[2017.06.02-23.49.18:505][298]Cmd: TRANSACTION UNDO
+[2017.06.02-23.49.18:505][298]LogEditorTransaction: Undo Edit Jump Z Velocity
+[2017.06.02-23.49.18:507][298]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Player_C_0.CollisionCylinder) Component already registered.
+[2017.06.02-23.49.18:508][298]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.Player_C_0.Arrow) Component already registered.
+[2017.06.02-23.49.19:009][353]Cmd: TRANSACTION UNDO
+[2017.06.02-23.49.19:009][353]LogEditorTransaction: Undo Delete current selection
+[2017.06.02-23.49.19:478][405]Cmd: TRANSACTION UNDO
+[2017.06.02-23.49.19:478][405]LogEditorTransaction: Undo Delete current selection
+[2017.06.02-23.49.22:070][711]BlueprintLog: New page: Compile Player
+[2017.06.02-23.49.22:081][711]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Engine/Transient.World_6:PersistentLevel.Player_C_8.CharMoveComp is already used by CharacterMovementComponent /Engine/Transient.World_6:PersistentLevel.REINST_Player_C_5.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.06.02-23.49.22:081][711]LogWorld: --- Actors Currently in /Engine/Transient.World_6:PersistentLevel ---
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.WorldSettings
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.Brush_6
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.DefaultPhysicsVolume_6
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.ParticleEventManager_6
+[2017.06.02-23.49.22:081][711]LogWorld:   NONE
+[2017.06.02-23.49.22:081][711]LogWorld:   NONE
+[2017.06.02-23.49.22:081][711]LogWorld:   NONE
+[2017.06.02-23.49.22:081][711]LogWorld:   NONE
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.Player_C_9
+[2017.06.02-23.49.22:081][711]LogWorld:   /Engine/Transient.World_6:PersistentLevel.Player_C_8
+[2017.06.02-23.49.22:241][711]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.159 s
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: 
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1502]
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: Could not remove actor /Engine/Transient.World_6:PersistentLevel.REINST_Player_C_5 from world (check level is /Engine/Transient.World_6:PersistentLevel)
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: Stack: 
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003382E1C6
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000335DB7D2
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000335F1D96
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002C716BC6
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002BE09C83
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002BE0F6F3
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000029F9D51B
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000029F9BFA8
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000029F9729A
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000029F983F2
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000029F6B763
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000027A10E7A
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000027A60961
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000027A655A6
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AF3EB7F
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002B037EF2
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AFA3DD2
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AFA5079
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002B017C05
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002B0C8F57
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002B0F5D7B
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AF19E9C
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AEE9835
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AF8E5E2
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AF7720F
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002AF68391
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003382166B
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003380B6E1
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000338232EB
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000033807A32
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: USER32.dll!0x0000000065391C24
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: USER32.dll!0x000000006539156C
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000033823BF6
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor.exe!0x000000007FECDB44
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor.exe!0x000000007FEBF0B0
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor.exe!0x000000007FEBF12A
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor.exe!0x000000007FED0CF9
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: UE4Editor.exe!0x000000007FED25F7
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: KERNEL32.DLL!0x0000000064E68364
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: ntdll.dll!0x0000000065D170D1
+[2017.06.02-23.49.22:241][711]LogOutputDevice:Error: 
+[2017.06.02-23.49.22:241][711]LogStats:                SubmitErrorReport -  0.000 s
